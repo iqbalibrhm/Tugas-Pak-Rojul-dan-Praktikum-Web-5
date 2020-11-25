@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox</title>
+</head>
+<body>
+    <h1>Jombs Chat! </h1>
+    <p>HAI! Coba tebak nama aku siapa?? ^_^</p>
+    <input id="pesan" style="width: 50%" type="text" name="pesan">
+    <button type="submit" onclick="tebaknama()">COBA TEBAK</button>
+    <p id="hasil"></p>
+
+    <script>
+        let nama = "Iqbal";
+        function tebaknama(){
+            document.getElementById("hasil").innerHTML = "Aku Adalah " + nama;
+        }
+    </script>
+</body>
+</html>
